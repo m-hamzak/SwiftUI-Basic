@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0001,
+        "name": "Contour Software",
+        "city": "Karachi",
+        "state": "Sindh",
+        "country": "Pakistan",
+        "roleType": "Full-Time",
+        "roleLocation": "Hybrid",
+        "startDate": "01-03-2022",
+        "endDate": "",
+        "designation": "Senior Software Developer",
+        "description": "- Develop car workshop management application to streamline operations for auto repair businesses. \n- Enhanced application architecture using Protocol Oriented Programming, MVVM, and VIPER. \n- Integrated Google ML Kit for advanced License Plate Detection and Barcode Scanning functionalities. \n- Utilized Azure Blob Storage for efficient media management and implemented video compression algorithms. \n- Enhance the app's UI/UX with responsive design tailored for both iPhone and iPad.",
+        "imageName": "contour"
+    },
+    {
+        "id": 0002,
+        "name": "Avanza Solutions",
+        "city": "Karachi",
+        "state": "Sindh",
+        "country": "Pakistan",
+        "roleType": "Full-Time",
+        "roleLocation": "Hybrid",
+        "startDate": "01-03-2020",
+        "endDate": "01-03-2022",
+        "designation": "Senior Software Engineer",
+        "description": "- Develop and manage mobile banking applications, ensuring compliance with Apple's guidelines. \n-Created a feature-rich Apple Watch app using SwiftUI, expanding the app ecosystem. \n-Integrated mobile payment platforms including Avanza Premier Pay and Apple Pay In-App Provisioning, achieving FIME certification. \n-Implemented robust encryption and security features, enhancing application safety. \n- Provided Arabic language support for international mobile banking users. \n-Mentored junior developers, enhancing their technical skills and professional growth.",
+        "imageName": "avanza"
+    },
+    {
+        "id": 0003,
+        "name": "Truly Future (Pvt) Ltd",
+        "city": "Karachi",
+        "state": "Sindh",
+        "country": "Pakistan",
+        "roleType": "Full-Time",
+        "roleLocation": "Onsite",
+        "startDate": "01-08-2019",
+        "endDate": "01-03-2020",
+        "designation": "Mobile Developer",
+        "description": "- Oversaw the full application lifecycle including planning, design, testing, release, and support. \n- Designed intuitive application flows and user interfaces using Adobe XD and Adobe Photoshop. \n- Developed fully functional iOS and Android applications, leveraging MapBox, Google Maps, Firebase, and Stripe for navigation and payment solutions",
+        "imageName": "truly-future"
+    }
+]
