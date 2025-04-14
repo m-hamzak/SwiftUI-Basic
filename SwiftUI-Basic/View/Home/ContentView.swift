@@ -10,18 +10,23 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        
-        CircleImage()
-            .scaleEffect(0.75)
-            .frame(width: 300, height: 300)
-            .padding(.top)
+        NavigationStack {
+            CircleImage(image: Image("profile-image"))
+                .scaleEffect(0.5)
+                .frame(width: 150, height: 150)
+                .padding(.bottom)
             
-        VStack(alignment: .leading) {
-            TitleView()
-            DescriptionView()
+            VStack(alignment: .leading) {
+                TitleView(title: "Hamza Khalid",
+                          leftSubtitle: "iOS Developer",
+                          rightSubtitle: "Pakistan")
+                Divider()
+                DescriptionView()
+            }
+            .padding()
+            FooterView()
         }
-        .padding()
-        Spacer()
+        .navigationTitle("Experience")
     }
 }
 
