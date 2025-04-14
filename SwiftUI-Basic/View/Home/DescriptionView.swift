@@ -14,6 +14,7 @@ struct DescriptionView: View {
                 .font(.headline)
                 .padding(.bottom)
             Text("Results-driven iOS developer with over 5 years of experience in designing, developing, and maintaining robust and user-friendly mobile applications. Expert in Swift, Objective-C, and utilizing the latest iOS frameworks.Committed to continuous learning and applying new technologies to enhance user experiences.")
+                .font(.body)
         }
     }
 }

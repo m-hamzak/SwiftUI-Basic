@@ -19,7 +19,9 @@ struct ContentView: View {
             VStack(alignment: .leading) {
                 TitleView(title: "Hamza Khalid",
                           leftSubtitle: "iOS Developer",
-                          rightSubtitle: "Pakistan")
+                          rightSubtitle: "Pakistan",
+                          titleFont: .title2,
+                          subTitleFont: .subheadline)
                 Divider()
                 DescriptionView()
             }

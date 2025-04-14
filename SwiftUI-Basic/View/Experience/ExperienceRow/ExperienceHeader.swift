@@ -22,7 +22,9 @@ struct ExperienceHeader: View {
             VStack(alignment: .leading) {
                 TitleView(title: title,
                           leftSubtitle: location,
-                          rightSubtitle: roleType)
+                          rightSubtitle: roleType,
+                          titleFont: .title3,
+                          subTitleFont: .subheadline)
             }
             Spacer()
         }
