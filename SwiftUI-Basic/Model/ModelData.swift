@@ -8,7 +8,7 @@
 import Foundation
 
 
-var experiences: [Experience] = load("exeprienceData.json")
+var experiences: [Experience] = load("experienceData.json")
 
 
 func load<T: Decodable>(_ filename: String) -> T {
