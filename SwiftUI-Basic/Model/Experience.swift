@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-struct Experience: Hashable, Codable {
+struct Experience: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
     var city: String

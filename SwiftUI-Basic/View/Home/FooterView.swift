@@ -12,7 +12,7 @@ struct FooterView: View {
         
         HStack {
             NavigationLink(destination: {
-                ExperienceDetail(experience: experiences[0])
+                ExperienceList()
             }, label: {
                 Text("Experience")
             })

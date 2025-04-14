@@ -11,10 +11,10 @@ struct ExperienceList: View {
     
     var body: some View {
         
-        List {
-            ExperienceDetail(experience: experiences[0])
-            ExperienceDetail(experience: experiences[1])
+        List(experiences) { experience in
+            ExperienceRow(experience: experience)
         }
+        .navigationTitle("Experience")
     }
 }
 
