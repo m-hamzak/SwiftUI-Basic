@@ -11,20 +11,22 @@ struct TitleView: View {
     var title: String
     var leftSubtitle: String?
     var rightSubtitle: String?
+    var titleFont: Font?
+    var subTitleFont: Font?
     
     var body: some View {
         Text(title)
-            .font(.title)
+            .font(titleFont ?? .title)
             .foregroundColor(.blue)
         HStack {
             if let leftSubtitle {
                 Text(leftSubtitle)
-                    .font(.headline)
+                    .font(subTitleFont ?? .headline)
                 Spacer()
             }
             if let rightSubtitle {
                 Text(rightSubtitle)
-                    .font(.headline)
+                    .font(subTitleFont ?? .headline)
             }
         }
         .foregroundStyle(.secondary)

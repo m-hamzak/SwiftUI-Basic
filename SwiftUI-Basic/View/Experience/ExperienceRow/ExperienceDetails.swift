@@ -21,20 +21,20 @@ struct ExperienceDetails: View {
         
         VStack (alignment: .leading){
             Text(title)
-                .font(.title3)
+                .font(.body)
                 .padding(.leading)
             
             HStack {
                     Text(startDate + " -")
-                        .font(.headline)
+                        .font(.footnote)
 
                     Text(endDate)
-                        .font(.headline)
+                        .font(.footnote)
                 
                 Spacer()
                 
                 Text(duration)
-                    .font(.headline)
+                    .font(.footnote)
             }
             .foregroundStyle(.secondary)
             .padding(.horizontal)
