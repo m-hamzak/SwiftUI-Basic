@@ -1,6 +1,6 @@
 //
-//  Image_Preview_iosApp.swift
-//  Image Preview ios
+//  SwiftUI_Basic.swift
+//  SwiftUI_Basic
 //
 //  Created by Hamza Khalid on 25/03/2025.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Image_Preview_iosApp: App {
+struct SwiftUI_Basic: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
