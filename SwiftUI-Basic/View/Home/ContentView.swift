@@ -14,7 +14,7 @@ struct ContentView: View {
             VStack {
                 let currentImage = Image("profile-image")
                 
-                NavigationLink(destination: ImageViewer(uiImage: UIImage(named: "profile-image") ?? UIImage())) {
+                NavigationLink(destination: ImageViewer(uiImages: [UIImage(named: "profile-image") ?? UIImage()])) {
                     CircleImage(image: currentImage)
                         .scaleEffect(0.5)
                         .frame(width: 150, height: 150)
